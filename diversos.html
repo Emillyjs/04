@@ -1,0 +1,109 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu de Navegação</title>
+    <link rel="stylesheet" href="css\styles.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="container">
+                <div class="logo">
+                    <a href="index.html"><img src="images/logo.png" alt="Logo"></a>
+                </div>
+                <ul class="nav-links">
+                    <li class="title"><a href="index.html">Seus Clássicos</a></li>
+                    <li><a href="nacionais.html">Nacionais</a></li>
+                    <li><a href="terror.html">Terror</a></li>
+                    <li><a href="romances.html">Romances</a></li>
+                    <li><a href="diversos.html">Diversos</a></li>
+                    <li><a href="teste.html">Teste</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <div class="titulo">
+        <h1 class="centro">Clássicos:</h1>
+            <h2>Aqui você encontrará uma lista de livros que todo mundo deveria ler:</h2>
+
+        <h1>Lista de Livros</h1>
+        <ul>
+            <li>
+                <span class="genre">Livros Clássicos</span>
+                <ul>
+                    <li>Dom Quixote - Miguel de Cervantes</li>
+                    <li>Orgulho e Preconceito - Jane Austen</li>
+                    <li>1984 - George Orwell</li>
+                    <li>Os Irmãos Karamazov - Fiódor Dostoiévski</li>
+                </ul>
+            </li>
+            <li>
+                <span class="genre">Livros que Todos Deveriam Ler</span>
+                <ul>
+                    <li>O Sol é para Todos - Harper Lee</li>
+                    <li>Ensaio sobre a Cegueira - José Saramago</li>
+                    <li>A Revolução dos Bichos - George Orwell</li>
+                    <li>O Pequeno Príncipe - Antoine de Saint-Exupéry</li>
+                </ul>
+            </li>
+            <li>
+                <span class="genre">Livros de Ficção Científica</span>
+                <ul>
+                    <li>Duna - Frank Herbert</li>
+                    <li>Neuromancer - William Gibson</li>
+                    <li>Fahrenheit 451 - Ray Bradbury</li>
+                    <li>O Guia do Mochileiro das Galáxias - Douglas Adams</li>
+                </ul>
+            </li>
+            <li>
+                <span class="genre">Livros de Fantasia</span>
+                <ul>
+                    <li>O Senhor dos Anéis - J.R.R. Tolkien</li>
+                    <li>Harry Potter e a Pedra Filosofal - J.K. Rowling</li>
+                    <li>As Crônicas de Nárnia - C.S. Lewis</li>
+                    <li>A Terra das Sombras - Deborah Harkness</li>
+                </ul>
+            </li>
+        </ul>
+<br>
+        <h2>Sabe de mais algum? Mande sua recomendação aqui:</h2>
+    <div class="form-container">
+        <h1>Envie sua Sugestão</h1>
+        <form action="/submit-suggestion" method="post">
+            <div class="form-group">
+                <label for="name">Nome:</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="suggestion">Sugestão:</label>
+                <textarea id="suggestion" name="suggestion" required></textarea>
+            </div>
+            <div class="form-group">
+                <input type="checkbox" id="updates" name="updates">
+                <label for="updates">Desejo receber atualizações por e-mail</label>
+            </div>
+            <button type="submit">Enviar Sugestão</button>
+        </form></div></div>
+
+        <footer>
+            <h2>Clássicos da Literatura</h2>
+            <p>&copy; 2024 Clássicos da Literatura. Todos os direitos reservados.</p>
+            <p>Contato: <a href="mailto:contato@classicosdaliteratura.com">contato@classicosdaliteratura.com</a></p>
+            <div class="social-links">
+                <a href="https://facebook.com" target="_blank" title="Facebook">Facebook</a> |
+                <a href="https://twitter.com" target="_blank" title="Twitter">Twitter</a> |
+                <a href="https://instagram.com" target="_blank" title="Instagram">Instagram</a>
+            </div>
+        </footer>
+        
+
+</body>
+</html>
